@@ -1,0 +1,242 @@
+@media (max-width: 1300px) {
+  .family_out {
+    /* flex-direction: column; */
+    padding: 30px 20px;
+  }
+
+  .partez h2,
+  .envie h2 {
+    font-size: 30px;
+  }
+  .partez,
+  .envie {
+    padding: 30px 15px;
+  }
+
+  .partez p,
+  .envie p {
+    font-size: 15px;
+  }
+}
+@media (max-width: 1200px) {
+  /* .ligne li:nth-last-child(-n+1){
+        display: none;
+      }  */
+  .chit {
+    margin-right: 0;
+  }
+
+  .carte {
+    margin: 10px 20px;
+  }
+  .family_out {
+    flex-direction: column;
+    padding: 30px 20px;
+  }
+  .cocotier img,
+  .plage img {
+    width: 100%
+  }
+  .partez h2,
+  .envie h2 {
+    font-size: 50px;
+  }
+  .partez,
+  .envie {
+
+    padding: 30px;
+    width: 50%;
+  }
+
+  .go_in_family {
+    margin-bottom: 30px;
+  }
+
+  .partez p,
+  .envie p {
+    font-size: 25px;
+  }
+  .contact {
+    padding: 20px 40px;
+  }
+  .go_in_family,
+  .enjoy_free {
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+  }
+
+  /* RESPONSIVE DU FORMULAIRE */
+
+  body form {
+    width: 80%;
+  }
+}
+@media (max-width: 999px) {
+  .ligne li:nth-last-child(-n + 2) {
+    display: none;
+  }
+  label.logo {
+    padding: 0 50px;
+  }
+  .chit {
+    margin-right: 0;
+  }
+  .carte {
+    margin: 10px 50px;
+  }
+  .family_out {
+    flex-direction: column;
+    padding: 30px 40px;
+  }
+  .cocotier,
+  .plage {
+    width: 50%;
+  }
+  .cocotier img,
+  .plage img {
+    width: 100%;
+    /* height: 100%; */
+  }
+  .partez h2,
+  .envie h2 {
+    font-size: 40px;
+  }
+  .partez,
+  .envie {
+    padding: 30px;
+    width: 50%;
+  }
+  .go_in_family {
+    margin-bottom: 30px;
+  }
+  .go_in_family,
+  .enjoy_free {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .partez p,
+  .envie p {
+    font-size: 18px;
+  }
+  .contact {
+    padding: 20px 40px;
+  }
+
+  /* RESPONSIVE DU FORMULARIE */
+  body form {
+    width: 80%;
+  }
+}
+@media (max-width: 600px) {
+  .chit {
+    margin-right: 0;
+  }
+  .ligne {
+    display: none;
+  }
+  label.logo {
+    padding: 0 0 0 20px;
+    position: relative;
+  }
+  .texte {
+    width: auto;
+    padding-top: 350px;
+  }
+  .texte h1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .texte .clop {
+    font-size: 40px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .modif {
+    font-size: 30px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .btn {
+    margin-top: 0;
+  }
+  .carte {
+    flex-direction: column;
+  }
+  .family_out {
+    flex-direction: column;
+    padding: 30px 20px;
+  }
+  .cocotier,
+  .plage {
+    width: 100%;
+    background-color: #fff;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+
+  .cocotier img,
+  .plage img {
+    /* width: auto; */
+    border-radius: 0;
+    height: 100%;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+  }
+  .partez h2,
+  .envie h2 {
+    font-size: 20px;
+  }
+  .partez,
+  .envie {
+    padding: 15px 25px;
+  }
+  .go_in_family,
+  .enjoy_free {
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column-reverse;
+    border-radius: 15px;
+  }
+  .partez p,
+  .envie p {
+    font-size: 13px;
+  }
+  .partez,
+  .envie {
+    width: 100%;
+    border-radius: 0;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+  .contact {
+    padding: 20px 40px;
+  }
+  /* body .first_form {
+    margin-top: 25px;
+    flex-direction: column;
+  }
+  .first_form input {
+    margin-right: 0;
+    width: 100%;
+    margin-bottom: 5px;
+  } */
+
+  /* RESPONSIVE DU FORMULARIE */
+
+  body form {
+    width: 95%;
+  }
+  .conteneur_form,
+  .conteneur_form1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .forme_1,
+  .forme_2,
+  .forme_3,
+  .forme_4 {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
